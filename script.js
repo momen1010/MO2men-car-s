@@ -56,3 +56,9 @@ window.addEventListener('scroll', () => {
         nav.style.background = 'rgba(255,255,255,0.9)';
     }
 });
+const menuToggle = document.querySelector(".menu-toggle");
+const navMenu = document.querySelector("nav ul");
+
+menuToggle.onclick = () => {
+    navMenu.classList.toggle("active");
+};
